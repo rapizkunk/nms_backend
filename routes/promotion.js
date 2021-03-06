@@ -30,7 +30,7 @@ router.put(
   isAdmin,
   update
 );
-router.get("/promotion", list);
+router.get("/promotions", list);
 router.get("/promotion/photo/:promotionId", photo);
 
 router.param("userId", userById);
